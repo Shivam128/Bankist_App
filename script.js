@@ -273,6 +273,7 @@ loggedOut.addEventListener('click', (e) => {
   e.preventDefault();
   loggedIn.forEach(item => item.style.display = 'inline-block')
   loggedOut.style.display = 'none';
+   containerApp.style.opacity = 0;
 })
 
 btnTransfer.addEventListener('click', function (e) {
